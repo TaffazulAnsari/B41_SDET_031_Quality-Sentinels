@@ -1,175 +1,164 @@
-# BEFIT- A health-related service platform.
-![](https://github.com/HeyTaffazul/Code-Pioneers_057/blob/main/images/Screenshot%202024-11-16%20132628.png)
+# StyleMate ONLINE STORE - A E-commerce shopping website.
+![](https://github.com/HeyTaffazul/B41_SDET_031_Quality-Sentinels/blob/main/Screenshot%202024-12-21%20185346.png)
+## Test Manual & Automation for StyleMate-ONLINE STORE Website Using Cypress and Page Object Model 
 
-## Introduction 
-BEFIT is a health-related service platform that offers health-related services, including activity tracking, mental wellness programs, nutrition plans, and personal training bookings. The testing focused on verifying the functionality, usability, and accessibility of these features across multiple devices and browsers.
-
-## Objective
-
-The goal of this testing project is to evaluate the **functionality**, **performance**, and **usability** of the **BEFIT** website hosted at [Link](https://baidu-bandits-072-git-main-sanjukumari-techs-projects.vercel.app/). This testing ensures that the website works as expected, navigates smoothly, and provides a user-friendly experience.
-
-## Project Type
-Manual Testing 
-
-## Table of Contents
-
-- [Test Plan Overview](#test-plan-overview)
-- [Scope of Testing](#scope-of-testing)
-- [Test Criteria](#test-criteria)
-- [Test Strategy](#test-strategy)
-- [Deliverables](#deliverables)
-- [Resources Required](#resources-required)
-- [Test Execution Summary](#test-execution-summary)
-- [Recommendations and suggestions](#test-execution-summary)
-
-
-## Test Plan Overview
-
-**Objective:**  
-To evaluate the functionality, performance, and usability of the **BEFIT** website, ensuring the site operates smoothly across different browsers and devices.
-
-**Scope:**  
-The testing will focus on **Functional Testing** and **Usability Testing**.
-
-**Testing Areas:**  
-- Website navigation  
-- Login/Signup processes  
-- Information display  
-- Overall user experience  
-- Accessibility
-
-**Test Type:**  
-- **Manual Testing**:  
-  - **Functional Testing**: Verifying that the website’s features function as expected.  
-  - **Usability Testing**: Evaluating the ease of navigation, clarity of product information, and accessibility.
-
-**Tools Used:**  
-- Browser Developer Tools  
-- Figma (for wireframing)  
-- Google Docs/Sheets (for documentation)  
-- Trello/Jira (for defect tracking)
-
-**Testing Environment:**  
-- Desktop and Mobile Browsers (Chrome, Firefox, Edge)
-
-**Test Execution Date:**  
-12/10/2024 to 16/11/2024
-
-**Approved By:**  
-Anjali Shaw
-
-**Tester:**  
-Taffazul Ansari
-
-
-## Scope of Testing
-
-### Functional Testing
-Ensures the core features of the website work correctly:
-- **Link Navigation**: Verifying all links lead to the correct pages and are not broken.
-- **Login/Signup**: Validating both correct and incorrect login/signup scenarios.
-- **Services Information Display**: Ensuring accurate and formatted service details.
-- **Data Entry and Verification**: Testing form data entry and validation.
-
-### Usability Testing
-Focuses on the user’s ability to interact with the website:
-- **Navigation Ease**: Testing whether the website’s navigation is intuitive.
-- **Services Information Accessibility**: Ensuring text readability and visual clarity.
-- **Responsive Design**: Verifying that the website adjusts across devices.
-- **Browser Compatibility**: Ensuring consistent behavior across major browsers.
-
-
-## Test Criteria
-
-### Pass Criteria:
-- All functional test cases pass successfully.
-- Usability testing yields positive feedback with no significant hindrances to user experience.
-
-### Fail Criteria:
-- Critical navigation problems (e.g., broken links).
-- Functional failures (e.g., login/signup not returning results).
-- Usability problems (e.g., unreadable text, non-responsive design).
-
-
-## Test Strategy
-
-### Functional Testing:
-1. **Verify Link Navigation**:  
-   - Test all links across the homepage and internal pages to ensure correct redirection without 404 errors.
-  
-2. **Test Login/Signup Functionality**:  
-   - Test login/signup with both valid and invalid credentials to ensure proper handling of all scenarios.
-
-3. **Services Information Display**:  
-   - Verify if service information such as images, descriptions, and prices are accurate and correctly displayed.
-
-4. **Data Entry and Verification**:  
-   - Add new data (such as filling out forms) and check if it is stored and displayed properly on the website.
-
-### Usability Testing:
-1. **Navigation Ease**:  
-   - Evaluate if the website’s navigation is user-friendly. Are menus labeled clearly? Can users find content effortlessly?
-
-2. **Services Information Accessibility**:  
-   - Ensure service details are accessible and easy to read, focusing on text size, contrast, and font clarity.
-
-3. **Responsive Design**:  
-   - Verify that the website is responsive across mobile, tablet, and desktop devices, maintaining usability and consistency.
-
-4. **Browser Compatibility**:  
-   - Test the website’s performance across major browsers such as Chrome, Firefox, Edge, and Safari.
-
-
-## Deliverables
-
-- **Test Cases**: Documented scenarios for both functional and usability testing.
-- **Test Summary Report**: Overview of test results, including pass/fail statuses.
-- **Bug Reports**: Detailed logs of any defects found during testing.
-- **Feedback and Suggestions**: Recommendations to enhance the website’s usability and functionality.
-
-
-## Resources Required
-
-- **Hardware**: Devices (mobile, tablet, desktop) for testing.
-- **Software**: Browsers (Chrome, Firefox, Edge, Safari), tools for capturing screenshots/videos (Snipping Tool).
-- **Access to Website**: Ensure testers have access to the site for performing the tests.
-
-
-## Test Execution Summary
-
-**Total Test Cases**: 66  
-**Passed**: 59  
-**Failed**: 7  
-**Critical Bugs**: None  
-**Minor Bugs**: 7  
-
-
-## Recommendations  and Suggestions
-
-1. **Login/Signup**:  
-   Enhance input validation and improve error messages for better user understanding.
-
-2. **Activity Tracker**:  
-   Fix data-fetching logic for past and upcoming activities to ensure consistency.
-
-3. **Mental Wellness**:  
-   Improve algorithms for more accurate personalized recommendations and progress tracking.
-
-4. **Nutrition**:  
-   Align nutrition suggestions with user preferences to avoid irrelevant plans.
-
-5. **Personal Training**:  
-   Investigate and resolve intermittent booking failures for certain time slots.
-
-
-## Conclusion
-
-The **BEFIT** website has undergone extensive testing for both functionality and usability. Most core features passed the tests, although some minor bugs were identified, particularly with the **Login/Signup**, **Activity Tracker**, **Mental Wellness**, and **Personal Training** modules. Addressing the identified issues will significantly enhance the user experience and functionality of the platform.
-
-By following the recommendations outlined, **BEFIT** can ensure that its website meets the highest standards of usability, performance, and functionality.
+### Objective
+StyleMate ONLINE STORE - A E-commerce shopping website. To validate the functionality, usability, and responsiveness of the Luni Interface website hosted at Luni Interface. The testing will focus on critical features like Homepage Navigation, Login/Signup, Interactive components, Add-to-cart & checkout processes, Responsiveness and Layout, Content validation, and Footer Links.
 
 ---
 
-## Feedback
-If you have any feedback to give, please contact me at
-taffazulansari7979@gmail.com 
+## Test Plan Document
+
+### Project Name
+StyleMate ONLINE STORE - A E-commerce shopping website.
+
+### Objective
+To validate the functionality, usability, and responsiveness of the Luni Interface website hosted at Luni Interface. The testing will focus on critical features like Homepage Navigation, Login/Signup, Interactive components, Add-to-cart & checkout processes, Responsiveness and Layout, Content validation, and Footer Links.
+
+### In-Scope
+- Homepage navigation
+- Interactive components (e.g., sliders, toggles)
+- Add-to-cart and checkout processes
+- Form validation (error and success messages)
+- Responsiveness across desktop, tablet, and mobile views
+- Footer links
+
+### Out-of-Scope
+- Performance testing
+- Security testing
+- Backend integration tests
+
+### Approach
+- **Testing Tool:** Cypress
+- **Design Pattern:** Page Object Model (POM)
+- **Levels of Testing:**
+  - Manual testing
+  - Automation testing 
+  - Functional testing
+  - UI testing
+  - Responsive design testing
+
+### Test Types
+- **Functional Testing:** Focused on features and workflows to ensure they work as intended.
+- **Usability Testing:** Evaluates user experience, accessibility, and design responsiveness.
+
+### Test Strategy
+#### Functional Testing
+- Test individual workflows and UI components.
+- Use Cypress for automated validations.
+
+#### Usability Testing
+- Evaluate user experience through manual testing across devices.
+- Focus on design clarity, accessibility, and intuitive navigation.
+
+### Testing Flow
+- Execute tests for navigation links and header/footer elements.
+- Validate login/signup processes using valid and invalid inputs.
+- Test interactive components and responsiveness on multiple devices.
+- Execute cart addition and checkout workflows.
+- Evaluate the accuracy of static and dynamic content.
+
+### Key Features to Test
+#### Homepage Navigation
+- Validate all header and footer links for proper redirection.
+- Verify login/signup workflows.
+- Test redirection from call-to-action buttons to target pages or sections.
+
+#### Interactive Components
+- Verify sliders, toggles, and other dynamic elements function as expected.
+- Test interactive elements for responsiveness on different screen sizes.
+
+#### Add-to-Cart & Checkout Process
+- Add items to the cart and ensure seamless checkout workflows.
+- Validate error messages for incomplete fields and success messages after correct submissions.
+
+#### Responsiveness and Layout
+- Test layout consistency across devices (desktop, tablet, mobile).
+- Validate the behavior of elements during screen resizing.
+
+#### Content Validation
+- Verify static content like headers, labels, and descriptions for accuracy.
+- Ensure dynamic content updates appropriately with user interactions.
+
+#### Footer Links
+- Test footer links for accurate redirection (e.g., About Us, Terms & Conditions).
+
+### Tools Used
+- **Cypress:** Test automation for end-to-end validation.
+- **Browser Developer Tools:** Inspect and debug issues.
+- **Google Docs/Sheets:** Documentation and reporting.
+- **Trello/Jira:** Track and manage defects.
+
+### Testing Environment
+- **Browsers:** Latest versions of Chrome, Firefox, and Safari
+- **Devices:** Desktop (1280x720), Tablet (768x1024), Mobile (375x667)
+- **URL:** Luni Interface
+- **Access:** Ensure testers have access to the live website and necessary credentials for testing.
+
+### Test Execution Timeline
+18/12/2024 to 21/12/2024
+
+---
+
+## Test Execution Summary 
+
+### StyleMate ONLINE STORE Website Testing Results
+
+**Test Case Statistics:**
+- **Total Test Cases:** 50
+- **Pass:** 33
+- **Fail:** 17
+- **Defects Identified:** 12
+
+**Key Findings:**
+1. **Homepage:**
+   - Successfully loads navigation, content, and footer. ✅
+   - Broken footer links and non-functional language dropdown. ❌
+2. **Interactive Features:**
+   - "Add to Cart" functionality works correctly. ✅
+   - Missing sorting and filtering features. ❌
+   - Login/signup issues persist. ❌
+3. **Add-to-Cart & Checkout:**
+   - Item addition/removal functions as expected. ✅
+   - Checkout button is non-functional. ❌
+4. **Responsiveness & Layout:**
+   - Mobile/tablet layouts optimized. ✅
+   - Navigation is seamless across devices. ✅
+5. **Content Accuracy:**
+   - Static content as expected. ✅
+   - Accessibility features are missing in some areas. ❌
+6. **Footer Links:**
+   - Broken or non-working footer links. ❌
+
+---
+
+## Recommendations
+
+1. **Critical Bugs to Address:**
+   - Fix broken footer links and language dropdown.
+   - Implement sorting and filtering functionality.
+   - Resolve login/signup and checkout issues.
+2. **Enhance Features:**
+   - Improve accessibility compliance.
+   - Add error messages for invalid form entries.
+3. **Retesting:**
+   - Re-execute failed scenarios after bug fixes.
+
+---
+
+## Documentation Deliverables
+- **Test Plan:** Overview of the testing approach and strategy.
+- **Test Scenarios and Cases:** Documented test cases for each functionality.
+- **Bug Reports:** Detailed descriptions of issues identified.
+- **Summary Report:** Overview of test execution outcomes.
+- **Mind Map:** Visual representation of workflows and navigation paths.
+
+---
+
+## Conclusion
+The testing process has identified critical and minor bugs impacting user experience and functionality. Addressing these issues will ensure a seamless and robust website experience for all users. Following the recommendations will enhance usability, responsiveness, and performance.
+
+---
+
+### Feedback
+For any feedback or queries, please contact me at: taffazulansari7979@gmail.com
