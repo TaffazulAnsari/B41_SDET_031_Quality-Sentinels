@@ -1,10 +1,10 @@
 import AddToCartAndCheckout from "../../support/PageObjectTestCase/AddToCartAndCheckout.cy";
 
 
-describe('add to cart', () => {
+describe('Add to cart and modify cart', () => {
     const productpage = new AddToCartAndCheckout();
 
-    it('', () => {
+    it('should add a product, modify the cart, and proceed to checkout', () => {
         productpage.visit();
         productpage.addToCart();
     });
