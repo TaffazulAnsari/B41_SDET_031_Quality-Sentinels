@@ -3,7 +3,7 @@
 ## Test Manual & Automation for StyleMate-ONLINE STORE Website Using Cypress and Page Object Model 
 
 ### Objective
-StyleMate ONLINE STORE - A E-commerce shopping website. To validate the functionality, usability, and responsiveness of the Luni Interface website hosted at Luni Interface. The testing will focus on critical features like Homepage Navigation, Login/Signup, Interactive components, Add-to-cart & checkout processes, Responsiveness and Layout, Content validation, and Footer Links.
+StyleMate ONLINE STORE - A E-commerce shopping website. To validate the functionality, usability, and responsiveness of the StyleMate-ONLINE STORE Website hosted at Luni Interface. The testing will focus on critical features like Homepage Navigation, Login/Signup, Interactive components, Add-to-cart & checkout processes, Responsiveness and Layout, Content validation, and Footer Links.
 
 ---
 
